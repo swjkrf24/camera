@@ -1,0 +1,43 @@
+"""
+配置参数 - Gesture Control Hub
+"""
+
+# ===== 摄像头配置 =====
+CAMERA_ID = 0
+CAMERA_WIDTH = 640
+CAMERA_HEIGHT = 480
+
+# ===== 手势检测配置 =====
+MAX_NUM_HANDS = 1
+MIN_DETECTION_CONFIDENCE = 0.7
+MIN_TRACKING_CONFIDENCE = 0.7
+
+# ===== 动作配置 =====
+ACTION_COOLDOWN = 0.5          # 动作冷却时间(秒)
+SWIPE_THRESHOLD = 0.15         # 挥手检测阈值(相对于画面宽度)
+SWIPE_FRAMES = 8               # 挥手检测帧数
+PALM_HOLD_TIME = 2.0           # 张开手掌切换模式的停留时间
+
+# ===== 滚动模式配置 =====
+SCROLL_AMOUNT = 3              # 每次滚动量
+TOP_ZONE_RATIO = 0.25          # 顶部触发区域
+BOTTOM_ZONE_RATIO = 0.75       # 底部触发区域
+SCROLL_COOLDOWN = 0.3          # 滚动冷却时间
+
+# ===== 视频控制配置 =====
+VIDEO_SEEK_SECONDS = 30        # 快进/快退秒数(YouTube 用 L/J 是 10 秒)
+
+# ===== UI 配置 =====
+WINDOW_NAME = "Gesture Control Hub"
+FONT_SCALE = 0.7
+FONT_THICKNESS = 2
+
+# ===== 颜色定义 (BGR) =====
+COLOR_GREEN = (0, 255, 0)
+COLOR_RED = (0, 0, 255)
+COLOR_BLUE = (255, 0, 0)
+COLOR_YELLOW = (0, 255, 255)
+COLOR_MAGENTA = (255, 0, 255)
+COLOR_WHITE = (255, 255, 255)
+COLOR_CYAN = (255, 255, 0)
+
